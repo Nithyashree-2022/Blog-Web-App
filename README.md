@@ -13,4 +13,17 @@ Front-end technologies used :HTML, CSS, and Bootstrap
 
 Template engine used: EJS
 
+COMMAND:
+
+Launch the website with: node app1.js
+
+models1.js has the mongoose schemas->events,books,posts and categories.
+
+NOTE:
+
+1.CREATE A FOLDER CALLED 'uploads' in your app folder
+
+2.CREATE A NEW MAILCHIMP ACCOUNT and note the API key and audience ID.Replace mine(which is deactivated now) with yours.
+
+3.INSTALL ALL THE PACKAGES MENTIONED IN 'package.json' file.
 
