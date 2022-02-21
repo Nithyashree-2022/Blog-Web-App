@@ -1,0 +1,256 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    
+  }
+
+  .btn{
+    margin: 1em;
+  }  
+  
+  .niche-pet{    
+    transform: rotate(-20deg);
+  }
+  .niche-more{
+    transform: rotate(20deg);
+  }
+  span.emoji {
+    font-size: 20px;
+    vertical-align: middle;
+    
+  }
+  
+
+  /* //from app.js of v1 */
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .form-control{
+    margin: 10px;
+  }
+
+
+
+.item .item-content {
+  padding: 30px 35px
+}
+
+.image-upload {
+  width: 100%;
+  height: 300px;
+  /* border: 1px dashed #ddd; */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  /* background: #f8f8f9; */
+  color: #666;
+  overflow: hidden,
+  
+}
+
+.item-wrapper form img {
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  border-radius: 5px;
+  overflow: hidden
+}
+
+.image-upload img {
+  height: 100% !important;
+  width: auto !important;
+  border-radius: 0px;
+  margin: 0 auto
+}
+
+.image-upload i {
+  font-size: 6em;
+  color: #ccc
+}
+
+.image-upload input {
+  cursor: pointer;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.item-wrapper input {
+  height: 43px;
+  line-height: 43px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px
+}
+
+/*Brand name*/
+.navbar-brand
+{
+  
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+
+}
+/* To style the navigation bar eles individually,style their links. */
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: light;
+  font-family: 'Playfair Display', serif;
+
+}
+/* Navigation bar */
+.navbar
+{
+  padding: 2em;
+
+}
+/*style drop-down items*/
+.dropdown-item{
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.dropdown-divider{
+  border: dotted;
+  height: 2px;
+  background-color:#7D1935;
+}
+
+/* Style the footer */
+#footer
+{
+  text-align: center;
+  padding: 3% 10%;    
+  background-color: #7D1935;
+  width: 100%;
+}
+
+
+/* For twitter,fb-footer icons */
+.footer-icon:hover{
+  cursor: pointer;
+
+}
+.footer-icon
+{
+  color:white;
+  margin: 10px;
+}
+
+
+/* Copyright text */
+.footer-text
+{
+  
+  font-family: 'Red Hat Mono', monospace;
+  size:10px;
+  padding-top: 20px;
+  color:white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.post-align{
+  /*  */
+  line-height: 2em;
+  margin-top: 20px;
+}
+.book-title-align{
+  /*  */
+  line-height: 2em;
+  margin-top: 20px;
+  
+}
+.center-align-text{
+  text-align: center;
+}
+.right-align-text{
+  text-align: right;
+  margin-left: 2em;
+}
+.left-align-text{
+  text-align: left;
+  margin: 2em;
+}
+.postDetails{
+  display: flex;
+  justify-content: space-between;
+}
+.post-content::first-letter{
+  font-size: 200%;
+  color:#6C4A4A;
+  margin-left: 5em;
+
+}
+.post-content{
+  white-space: pre-wrap; 
+  /*New lines given while entering text in text-area should be recognized and 
+  text should be displayed accly*/
+}
+.edit-icon{
+  color: blue;  
+  
+}
+.delete-icon{
+  color:red;  
+  
+}
+.icons-align{
+  display: flex;
+  font-size: 30px;
+  /* text-align: right; */
+}
+.icons-align a {
+  margin-right: 15px;
+}
+.other-links {
+  text-align: center;
+  list-style: inside; /*otherwise the bullets and text will be separated*/
+}
+.author-bio{
+  margin: auto;
+  width: 60%;
+  margin-top: 5em;
+  
+  padding: 10px;
+  
+  text-align: center;
+  /* margin-left: 5em;
+  margin-top: 5em;
+  margin-right: 5em; */
+  
+  
+}
+.links-author{
+  text-decoration: none;
+  color: #9D5C0D;
+}
+
